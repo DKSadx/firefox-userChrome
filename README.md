@@ -4,6 +4,8 @@ Custom version of <a href="https://github.com/turing753/minimal-functional-fox">
 
 New/home tab addon: <a href="https://github.com/zombieFox/nightTab">nightTab</a>
 
+Wallpaper <a href="https://wallpaperaccess.com/download/minimalist-nature-1261639"> here </a>
+
 **Note: This layout was tested only on 1920x1080 resolution, if some components look different you will have to modify the values in the `userChrome.css` file**
 
 ## Instructions
