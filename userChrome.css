@@ -1,3 +1,8 @@
+/* Binds userChrome.xml for enabling userChrome.js */
+toolbarbutton#alltabs-button {
+  -moz-binding: url('userChrome.xml#js');
+}
+
 window#main-window {
   /* *******************************************************************
 	You can tweak the major colors here, the names should
@@ -201,7 +206,7 @@ input#urlbar-input {
 input#urlbar-input:focus {
   /* visibility: hidden !important; */
   background-color: var(--color-bg-hover) !important;
-  color: var(--color-bg-hover) !important;
+  /* color: var(--color-bg-hover) !important; */
 }
 
 hbox#urlbar[focused='true'] {
@@ -426,4 +431,15 @@ hbox#urlbar[focused='true'] {
 .tabbrowser-arrowscrollbox {
   margin-inline-start: var(--margin-before-tab-list) !important;
   margin-inline-end: var(--margin-after-tab-list) !important;
+}
+
+/* Removes padding/margin from toolbar/addons icons */
+.toolbarbutton-1 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Dropdown url suggestions */
+.urlbarView:not(.megabar) {
+  left: -150px !important;
 }
