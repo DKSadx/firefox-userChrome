@@ -3,7 +3,7 @@ toolbarbutton#alltabs-button {
   -moz-binding: url('userChrome.xml#js');
 }
 
-window#main-window {
+html#main-window {
   /* *******************************************************************
 	You can tweak the major colors here, the names should
 	be self explanatory. If you want you can also import the stylesheet
@@ -114,11 +114,11 @@ window#main-window {
   --urlbar-separator-color: var(--color-bg) !important;
 }
 
-window#bookmarksPanel {
+html#bookmarksPanel {
   --lwt-sidebar-background-color: var(--color-bg) !important;
 }
 
-window#history-panel {
+html#history-panel {
   --lwt-sidebar-background-color: var(--color-bg) !important;
   --lwt-sidebar-text-color: var(--color-fg) !important;
 }
