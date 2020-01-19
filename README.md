@@ -1,5 +1,7 @@
 Custom version of <a href="https://github.com/turing753/minimal-functional-fox">minimal-functional-fox</a>
 
+_userChrome.js/userChrome.xml was removed because firefox 72+ dropped support for it, you can still find it in previous commits_
+
 ![firefox](./firefox.png)
 
 New/home tab addon: <a href="https://github.com/zombieFox/nightTab">nightTab</a>
@@ -24,5 +26,3 @@ Wallpaper <a href="https://wallpaperaccess.com/download/minimalist-nature-126163
 
 - Copy the contents of this repository to `~/.mozilla/firefox/<your-profile-name>/chrome/`
   - If there isn't a chrome folder, you can just go ahead and create one
-
-_userChrome.js is used for adding/removing the placeholder when the url bar is (not)focused_
