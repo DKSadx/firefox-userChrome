@@ -418,8 +418,7 @@ hbox#urlbar[focused='true'] {
 }
 
 .tab-close-button {
-  opacity: 0;
-  transition: opacity 0.25s;
+  display: none !important;
 }
 
 .tab-stack {
